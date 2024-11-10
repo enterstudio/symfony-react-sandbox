@@ -596,13 +596,6 @@ babel-plugin-transform-object-rest-spread@^6.20.2:
     babel-plugin-syntax-object-rest-spread "^6.8.0"
     babel-runtime "^6.20.0"
 
-babel-plugin-transform-object-rest-spread@^6.22.0:
-  version "6.22.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-object-rest-spread/-/babel-plugin-transform-object-rest-spread-6.22.0.tgz#1d419b55e68d2e4f64a5ff3373bd67d73c8e83bc"
-  dependencies:
-    babel-plugin-syntax-object-rest-spread "^6.8.0"
-    babel-runtime "^6.22.0"
-
 babel-plugin-transform-react-display-name@^6.3.13:
   version "6.8.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-react-display-name/-/babel-plugin-transform-react-display-name-6.8.0.tgz#f7a084977383d728bdbdc2835bba0159577f660e"
@@ -1221,13 +1214,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2:
     create-hash "^1.1.0"
     inherits "^2.0.1"
 
-cross-env@^3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/cross-env/-/cross-env-3.1.4.tgz#56e8bca96f17908a6eb1bc2012ca126f92842130"
-  dependencies:
-    cross-spawn "^3.0.1"
-
-cross-spawn@^3.0.0, cross-spawn@^3.0.1:
+cross-spawn@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-3.0.1.tgz#1256037ecb9f0c5f79e3d6ef135e30770184b982"
   dependencies:
@@ -2642,14 +2629,13 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-liform-react@^0.5.11:
-  version "0.5.11"
-  resolved "https://registry.yarnpkg.com/liform-react/-/liform-react-0.5.11.tgz#1eb497141ec078d5b702ea8a271cf26b679f3634"
+liform-react@^0.5.14:
+  version "0.5.15"
+  resolved "https://registry.yarnpkg.com/liform-react/-/liform-react-0.5.15.tgz#c6edf74da879eb2a5437cd66f6819f020b6bc75a"
+  integrity sha512-YfpcQ+1T2CL0iMgJVBPliDUt3GbRMwFZgEOcmUqtu4/EQFF41kHdYiXCJJ2sbVJKbVN/YZ80N7FFvhtg8DJJ+A==
   dependencies:
     ajv "^4.11.3"
-    babel-plugin-transform-object-rest-spread "^6.22.0"
     classnames "^2.2.5"
-    cross-env "^3.1.4"
     lodash "^4.10.0"
     redux-form "^6.0.2"
 
